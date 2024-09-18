@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarStars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="img/about.ico" type="image/x-icon">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn">x</span>
+
+            <img src="img/part2.png" alt="Popup Resmi" class="popup-image">
+
+            <h2>OTO Yedek Parça <span> <i class='bx bxs-star'>(5Beğeni)</i>
+                </span><br><span>$210.99</span> </h2>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn">x</span>
+
+            <img src="img/part2.png" alt="Popup Resmi" class="popup-image">
+
+            <h2>OTO Yedek Parça <span> <i class='bx bxs-star'>(5Beğeni)</i>
+                </span><br><span>$210.99</span> </h2>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header id="nav">
+        <div class="nav container asd">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="#" class="logo">Car<span>Stars</span></a>
+            <ul class="navbar">
+                <li><a href="#home" class="active">Anasayfa</a></li>
+                <li><a href="#cars">Arabalar</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#parts">Parçalar</a></li>
+                <li><a href="#blog">Blog</a></li>
+
+
+            </ul>
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Aranacak Kelimeyi Giriniz">
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="home" id="home">
+
+        <div class="home-text">
+            <h1>İhtiyacınız olan <br>Herşeye <span>Sahibiz</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Eveniet, alias. </p>
+
+            <a href="#" class="btn">Şimdi Keşfet</a>
+        </div>
+    </section>
+
+
+    <section class="cars" id="cars">
+        <div class="heading">
+            <h2>Her Çeşit Arabamız Var</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, minus!</p>
+
+        </div>
+
+        <div class="cars-container container">
+            <div class="box">
+                <img src="img/car1.jpg" alt="">
+                <h2>Porsh Araba</h2>
+            </div>
+
+            <div class="box">
+                <img src="img/car2.jpg" alt="">
+                <h2>Audi Araba</h2>
+            </div>
+            <div class="box">
+                <img src="img/car3.jpg" alt="">
+                <h2>Mercedes Araba</h2>
+            </div>
+            <div class="box">
+                <img src="img/car4.jpg" alt="">
+                <h2>Tesla Araba</h2>
+            </div>
+            <div class="box">
+                <img src="img/car5.jpg" alt="">
+                <h2>Togg Araba</h2>
+            </div>
+            <div class="box">
+                <img src="img/car6.jpg" alt="">
+                <h2>Porsh Araba</h2>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+
+        </div>
+        <div class="about-text">
+            <span>Hakkımızda</span>
+            <h2>Ucuz Fiyatlar<br>Kaliteli Arabalar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio explicabo asperiores minima?
+                Molestiae, cumque?</p>
+            <a href="#" class="btn">Daha Fazla</a>
+
+        </div>
+    </section>
+
+
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span>Teklifimiz</span>
+            <h2>Arabalarımız Her Zaman Mükemmeldir</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nesciunt?</p>
+
+        </div>
+        <div class="parts-container container">
+            <div class="box">
+                <img src="img/part1.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#" class="detailes">Detaylar</a>
+            </div>
+
+            <div class="box">
+                <img src="img/part2.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#parts" id="openPopup" class="detailes">Detaylar</a>
+            </div>
+
+            <div class="box">
+                <img src="img/part3.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#" class="detailes">Detaylar</a>
+            </div>
+
+            <div class="box">
+                <img src="img/part4.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#" class="detailes">Detaylar</a>
+            </div>
+            <div class="box">
+                <img src="img/part5.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#" class="detailes">Detaylar</a>
+            </div>
+            <div class="box">
+                <img src="img/part6.png" alt="">
+                <h3>OTO Yedek Parça</h3>
+                <span>$210.99</span>
+                <i class='bx bxs-star'>(5Beğeni)</i>
+                <a href="#" class="btn">Satın Al</a>
+                <a href="#" class="detailes">Detaylar</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Yeni & Blog</span>
+            <h2>Blog içeriğimiz</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, dolorum!</p>
+        </div>
+        <div class="blog-container container">
+            <div class="box">
+                <img src="img/car1.jpg" alt="">
+                <span>Ocak 15 2024</span>
+                <h3>Düşük fiyata mükemmel araba nasıl alınır ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatum?</p>
+                <a href="#" class="blog-btn">Devamını Oku<i class='bx bx-right-arrow-alt'></i></a>
+
+            </div>
+
+            <div class="box">
+                <img src="img/car2.jpg" alt="">
+                <span>Ocak 15 2024</span>
+                <h3>Düşük fiyata mükemmel araba nasıl alınır ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatum?</p>
+                <a href="#" class="blog-btn">Devamını Oku<i class='bx bx-right-arrow-alt'></i></a>
+
+            </div>
+
+
+            <div class="box">
+                <img src="img/car3.jpg" alt="">
+                <span>Ocak 15 2024</span>
+                <h3>Düşük fiyata mükemmel araba nasıl alınır ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatum?</p>
+                <a href="#" class="blog-btn">Devamını Oku<i class='bx bx-right-arrow-alt'></i></a>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">car<span>Star </span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"> <i class='bx bxl-youtube'></i></a>
+
+
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#home">Anasayfa</a>
+                <a href="#cars">Arabalar</a>
+                <a href="#parts">Parçalar</a>
+                <a href="#home">Satış</a>
+
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privarcy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie Policy</a>
+
+            </div>
+
+
+            <div class="footer-box">
+                <h3>Contanct</h3>
+                <p>United States</p>
+                <p>Ankara</p>
+                <p>Türkiye</p>
+
+
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; AbdullahMertÇANKAYA All Right Reserved</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
